@@ -6,15 +6,27 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <style>
-    .box1 {}
+    .box {
+      width: 100px;
+      border: 2px solid black;
+      padding: 10px;
+      margin: 20px;
+      background-color: yellow;
+    }
 
-    .box2 {}
+    .content-box {
+      box-sizing: content-box;
+    }
+
+    .border-box {
+      box-sizing: border-box;
+    }
   </style>
 </head>
 
 <body>
-  <div class="box1">box1</div>
-  <div class="box2">box2</div>
+  <div class="box content-box">content-box</div>
+  <div class="box border-box">border-box</div>
 </body>
 
 </html>
