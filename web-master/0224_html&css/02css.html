@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            color: red;
+        }
+
+        h2 {
+            color:bisque;
+        }
+
+        h3 {
+            color:blue;
+        }
+
+        .green{
+            color:aquamarine
+        }
+
+        #purple{
+            color:purple;
+        }
+
+        [class^="y"] {
+            color: yellow;
+        }
+
+        .green li {
+            color: brown;
+        }
+
+        .green .pink{
+            color: pink;
+        }
+
+        .green > span{
+            font-size: 50px;
+        }
+
+        .green >li >ol >li {
+            color:skyblue
+        }
+    </style>
+</head>
+<body>
+    <h1 class="green">Heading</h1>
+    <h2>선택자연습</h2>
+    <h3>Helo</h3>
+    <h4>Nice to ~~</h4>
+    <p id="purple">과목 목록</p>
+    <ul class="green">
+        <li>파이썬</li>
+        <li class="pink">알고리즘</li>
+        <li>web
+            <ol>
+                <li>HTML</li>
+                <li class="pink">CSS</li>
+                <li>PYTHON</li>
+            </ol>
+        </li>
+    </ul>
+    <p class="green">Lorem, <span>ipsum</span> dolor.</p>
+    <p class = "yellow">TEST</p>
+</body>
+</html>
